@@ -73,4 +73,4 @@ blablabla
 \end{document}
 
 ## Lizenz
-   keine Lizenz
+This project is licensed under the MIT License.
