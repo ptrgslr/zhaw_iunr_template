@@ -1,0 +1,122 @@
+\documentclass[a4paper,12pt,twoside]{article}
+
+\input{preamble_zhaw}
+
+\begin{document}
+	
+	% Titelseite
+	\begin{titlepage}
+		\centering
+		{\Large Zürcher Hochschule für Angewandte Wissenschaften\\
+			Departement Life Sciences und Facility Management\\[2cm]}
+		{\Large \textbf{Titel der Arbeit}\\[1cm]}
+		{\large LaTex Vorlage\\[1cm]}
+		{\large \textbf{Art der Arbeit}\\[1cm]}
+		\begin{tabbing}
+			\hspace*{6cm} \= \kill
+			\textbf{Autor/in:}    \> Dein Name\\
+			\textbf{Studiengang:} \> Dein Studiengang\\
+			\textbf{Betreuer/in:} \> Name des/der Betreuers/in\\
+			\textbf{Abgabedatum:} \> TT.MM.JJJJ
+		\end{tabbing}
+		\vfill
+	\end{titlepage}
+	
+	% Impressum auf der Rückseite des Titelblatts
+	\newpage
+	\thispagestyle{empty}
+	\noindent
+	
+	\textbf{Schlagworte:} Schlagwort1, Schlagwort2, Schlagwort3\\[1cm]
+	\textbf{Zitiervorschlag:}\\
+	Autor/in (Jahr). Titel der Arbeit. Zürcher Hochschule für Angewandte Wissenschaften, Departement Life Sciences und Facility Management.\\[1cm]
+	\textbf{Institut:} Name des Instituts
+	
+	% Zusammenfassung
+	\newpage
+	\section*{Zusammenfassung}
+	Hier folgt die Zusammenfassung der Arbeit.
+	
+	% Abkürzungsverzeichnis
+	\newpage
+	\section*{Abkürzungsverzeichnis}
+	\begin{tabbing}
+		\hspace*{3cm} \= \kill
+		Abb. \> Abbildung\\
+		Tab. \> Tabelle\\
+		etc.
+	\end{tabbing}
+	
+	
+	% Inhaltsverzeichnis
+	\newpage
+	\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} %kapitel Inhaltsverzeichnis ausschliessen
+	\tableofcontents
+	\addtocontents{toc}{\protect\setcounter{tocdepth}{3}}
+	\thispagestyle{empty}
+	
+	
+	% Einleitung
+	\newpage
+	\pagestyle{standard} % Aktiviert Kopf- und Fußzeilen ab dieser Seite
+	\section{Einleitung}
+	\addcontentsline{toc}{section}{Einleitung} % Fügt "Einleitung" in das Inhaltsverzeichnis ein
+	Hier beginnt der Hauptteil der Arbeit.
+	\subsection{Stand der Forschung}
+	Hier beginnt der Hauptteil der Arbeit.
+	
+	
+	% Weitere Kapitel
+	\newpage
+	\section{Theorie oder Literaturübersicht}
+	% Inhalt
+	
+	\newpage
+	\section{Material und Methoden}
+	% Inhalt
+	
+	\newpage
+	\section{Ergebnisse}
+	% Inhalt
+	
+	\newpage
+	\section{Diskussion}
+	% Inhalt
+	
+	% Literaturverweise im Text
+	% Beispiel für ein Zitat:
+	% \cite{SchlüsselAusBibDatei}
+	
+	% Literaturverzeichnis
+	\newpage
+	\pagestyle{plain} % Setzt den neuen Seitenstil
+	\printbibliography
+	\markboth{Literaturverzeichnis}{Literaturverzeichnis} % Kapitelname in der Kopfzeile
+	
+	
+	% Abbildungsverzeichnis (falls benötigt)
+	\newpage
+	\pagestyle{plain} % Setzt den neuen Seitenstil
+	\listoffigures
+	\markboth{Abbildungsverzeichnis}{Abbildungsverzeichnis} % Kapitelname in der Kopfzeile
+	
+	
+	% Tabellenverzeichnis (falls benötigt)
+	\newpage
+	\pagestyle{plain} % Setzt den neuen Seitenstil
+	\listoftables
+	\markboth{Tabellenverzeichnis}{Tabellenverzeichnis} % Kapitelname in der Kopfzeile
+	
+	
+	% Anhang (falls benötigt)
+	\newpage
+	\appendix
+	\pagenumbering{arabic} % Seitenzahlen im Anhang beginnen bei 1
+	\pagestyle{appendix}   % Seitenstil für den Anhang (gerade/ungerade)
+	\section*{Anhang}
+	\addcontentsline{toc}{section}{Anhang}
+	\renewcommand{\thesubsection}{Anhang \Alph{subsection}}
+	% Inhalt
+	
+	
+\end{document}
