@@ -74,5 +74,5 @@ Diskutieren Sie Ihre Ergebnisse.
 
 \end{document}
 
-7. Lizenz
+## Lizenz
    keine Lizenz
