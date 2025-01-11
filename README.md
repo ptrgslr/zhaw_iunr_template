@@ -5,12 +5,10 @@ Die Vorlage basiert auf https://gpmpublic.zhaw.ch/GPMDocProdDPublic/Vorgabedokum
 
 ## Inhalt
 - `zhaw_template.tex`: Hauptdatei des Dokuments, in der der Inhalt der Arbeit geschrieben wird. Diese Datei lädt automatisch die Präambel und weitere Einstellungen.
-- `preamble_zhaw.tex`: Präambeldatei mit den wichtigsten Einstellungen und Formatierungsanweisungen, die flexibel angepasst werden können.
-
+- `preamble_zhaw.tex`: Präambeldatei mit den wichtigsten Einstellungen und Formatierungsanweisungen, anpassbar
 ## Features
-
-- **Kapitel, Abschnitte und Unterabschnitte** mit automatischer Nummerierung.
-- **Kopf- und Fusszeilen** für gerade und ungerade Seiten.
+- **Kapitel, Abschnitte und Unterabschnitte** fortlaufend nummeriert.
+- unterschiedliche **Kopf- und Fusszeilen** für gerade und ungerade Seiten (eher für Print)
 - Automatische Erstellung von Verzeichnissen wie Inhalts-, Abbildungs- und Tabellenverzeichnissen.
 - Einbindung eines **Literaturverzeichnisses** mit BibLaTeX.
 - Einfache Anpassung von Schriftart, Abständen und weiteren Formatierungen.
