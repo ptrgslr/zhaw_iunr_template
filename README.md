@@ -57,16 +57,16 @@ Literaturverzeichnis mit \printbibliography
 \input{titlepage} % Titelblatt
 
 \section{Einleitung}
-Hier beginnt der Hauptteil Ihrer Arbeit.
+blablabla
 
 \section{Methoden}
-Beschreiben Sie Ihre Methoden hier.
+blablabla
 
 \section{Ergebnisse}
-Stellen Sie Ihre Ergebnisse hier dar.
+blablabla
 
 \section{Diskussion}
-Diskutieren Sie Ihre Ergebnisse.
+blablabla
 
 \printbibliography % Literaturverzeichnis
 
