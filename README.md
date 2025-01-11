@@ -9,9 +9,9 @@ Die Vorlage basiert auf https://gpmpublic.zhaw.ch/GPMDocProdDPublic/Vorgabedokum
 
 ## Features
 
-- Unterstützung für **Kapitel, Abschnitte und Unterabschnitte** mit automatischer Nummerierung.
+- **Kapitel, Abschnitte und Unterabschnitte** mit automatischer Nummerierung.
 - **Kopf- und Fusszeilen** für gerade und ungerade Seiten.
-- Automatische Erstellung von Verzeichnissen, einschließlich Inhalts-, Abbildungs- und Tabellenverzeichnissen.
+- Automatische Erstellung von Verzeichnissen wie Inhalts-, Abbildungs- und Tabellenverzeichnissen.
 - Einbindung eines **Literaturverzeichnisses** mit BibLaTeX.
 - Einfache Anpassung von Schriftart, Abständen und weiteren Formatierungen.
 
@@ -49,7 +49,8 @@ Tabellenverzeichnis mit \listoftables
 Literaturverzeichnis mit \printbibliography
 
 
-6. Beispiel 
+6. Beispiel
+
    \documentclass[a4paper,12pt,twoside]{article}
 \input{preamble_zhaw}
 
