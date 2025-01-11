@@ -48,8 +48,8 @@ Literaturverzeichnis mit \printbibliography
 
 
 6. Beispiel
-
-   \documentclass[a4paper,12pt,twoside]{article}
+```r
+\documentclass[a4paper,12pt,twoside]{article}
 \input{preamble_zhaw}
 
 \begin{document}
@@ -71,6 +71,6 @@ blablabla
 \printbibliography % Literaturverzeichnis
 
 \end{document}
-
+```
 ## Lizenz
 This project is licensed under the MIT License.
