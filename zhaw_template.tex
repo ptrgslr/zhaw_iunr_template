@@ -20,6 +20,10 @@
 			\textbf{Abgabedatum:} \> TT.MM.JJJJ
 		\end{tabbing}
 		\vfill
+	\begin{figure}[t]
+		\raggedleft
+		\includegraphics[width=0.5\textwidth]{zhawGR_logo.png} % 
+		\end{figure}
 	\end{titlepage}
 	
 	% Impressum auf der Rückseite des Titelblatts
@@ -68,11 +72,33 @@
 	% Weitere Kapitel
 	\newpage
 	\section{Theorie oder Literaturübersicht}
-	% Inhalt
+	
+	\begin{figure}[b] %[ht] nach \begin{figure}, um die Abbildung "hier" (h) oder oben (t) zu platzieren. Andere Optionen sind b (bottom) oder p (auf einer separaten Seite)
+		\raggedright %\centering, \raggedright oder \raggedleft für Position
+		\includegraphics[width=0.5\textwidth]{zhawGR_logo.png} % Ersetzt "beispielbild" durch den Namen der Bilddatei (z. B. beispielbild.png), muss im gleichen Verzeichnis sein
+		\caption{Beispielabbildung}
+		\label{fig:beispiel}
+	\end{figure}
+	Abbildung \ref{fig:beispiel} zeigt ein Beispiel.
+	
 	
 	\newpage
 	\section{Material und Methoden}
-	% Inhalt
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Spalte 1 & Spalte 2 & Spalte 3 \\ \hline
+			Daten 1  & Daten 2  & Daten 3  \\ \hline
+			Daten 4  & Daten 5  & Daten 6  \\ \hline
+		\end{tabular}
+		\caption{Beispieltabelle}
+		\label{tab:beispiel}
+	\end{table}
+	
+	Tabelle \ref{tab:beispiel} zeigt ein Beispiel.
+	
+	
 	
 	\newpage
 	\section{Ergebnisse}
