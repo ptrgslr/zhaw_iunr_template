@@ -10,7 +10,7 @@ Die Vorlage basiert auf https://gpmpublic.zhaw.ch/GPMDocProdDPublic/Vorgabedokum
 ## Features
 
 - Unterstützung für **Kapitel, Abschnitte und Unterabschnitte** mit automatischer Nummerierung.
-- Konfigurierbare **Kopf- und Fußzeilen** für gerad- und ungeradzahlige Seiten.
+- **Kopf- und Fusszeilen** für gerade und ungerade Seiten.
 - Automatische Erstellung von Verzeichnissen, einschließlich Inhalts-, Abbildungs- und Tabellenverzeichnissen.
 - Einbindung eines **Literaturverzeichnisses** mit BibLaTeX.
 - Einfache Anpassung von Schriftart, Abständen und weiteren Formatierungen.
@@ -37,19 +37,19 @@ Einstellungen für Verzeichnisse (Inhalts-, Abbildungs-, Tabellen- und Literatur
 Kapitelstruktur
 
 4. Befehle in zhaw_template.tex, um Abschnitte zu erstellen:
-\section{}: Abschnitt
-\subsection{}: Unterabschnitt
-\subsubsection{}: Unter-Unterabschnitt
-Verzeichnisse
-Die Vorlage erstellt automatisch:
+   \section{}: Abschnitt
+   \subsection{}: Unterabschnitt
+   \subsubsection{}: Unter-Unterabschnitt
 
+5. Verzeichnisse
+Die Vorlage erstellt automatisch:
 Inhaltsverzeichnis mit \tableofcontents
 Abbildungsverzeichnis mit \listoffigures
 Tabellenverzeichnis mit \listoftables
 Literaturverzeichnis mit \printbibliography
 
 
-5. Beispiel 
+6. Beispiel 
    \documentclass[a4paper,12pt,twoside]{article}
 \input{preamble_zhaw}
 
@@ -73,5 +73,5 @@ Diskutieren Sie Ihre Ergebnisse.
 
 \end{document}
 
-6. Lizenz
+7. Lizenz
    keine Lizenz
