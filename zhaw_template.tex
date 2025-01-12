@@ -173,12 +173,17 @@
 	% Anhang (falls benötigt)
 	\newpage
 	\appendix
+	\cleardoublepage %falls anhang mit ungerader seite beginnen muss
 	\pagenumbering{arabic} % Seitenzahlen im Anhang beginnen bei 1
 	\pagestyle{appendix}   % Seitenstil für den Anhang (gerade/ungerade)
 	\section*{Anhang}
 	\addcontentsline{toc}{section}{Anhang}
 	\renewcommand{\thesubsection}{Anhang \Alph{subsection}}
-	% Inhalt
+	\markboth{Anhang}{Anhang}
+	asdf
+	\newpage
+	\noindent asdf
+	
 	
 	
 \end{document}
