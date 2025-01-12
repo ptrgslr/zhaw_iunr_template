@@ -7,39 +7,63 @@
 	% Titelseite
 	\begin{titlepage}
 		\centering
-		{\Large Zürcher Hochschule für Angewandte Wissenschaften\\
-			Departement Life Sciences und Facility Management\\[2cm]}
+		{\large \MakeUppercase{Zürcher Hochschule für Angewandte Wissenschaften}\\
+			\MakeUppercase{Departement Life Sciences und Facility Management}\\
+			\MakeUppercase{Institut für Umwelt und natürliche Ressourcen}\\[1.5cm]}
+		
+		% Titel der Arbeit
 		{\Large \textbf{Titel der Arbeit}\\[1cm]}
-		{\large LaTex Vorlage\\[1cm]}
-		{\large \textbf{Art der Arbeit}\\[1cm]}
+		%{\large Untertitel\\[1.5cm]} fall Untertitel notwendig
+		{\large{Art der Arbeit}\\[2cm]}
+		
+		% zentrierte Angaben
+		\begin{center}
+			\textbf{von}\\
+			\textbf{Name, Vorname}\\
+			Dein Studiengang\\
+			Abgabedatum: TT.MM.JJJJ
+		\end{center}
+		
+		%Fachkorrektur
+		\vspace{1cm}
 		\begin{tabbing}
-			\hspace*{6cm} \= \kill
-			\textbf{Autor/in:}    \> Dein Name\\
-			\textbf{Studiengang:} \> Dein Studiengang\\
-			\textbf{Betreuer/in:} \> Name des/der Betreuers/in\\
-			\textbf{Abgabedatum:} \> TT.MM.JJJJ
+			\textbf{Fachkorrektur:} \\
+			(Akad. Titel) Name, Vorname (ausgeschrieben)\\
+			Firma, Adresse, Ort\\
+			\\%leere zeile
+			(Akad. Titel) Name, Vorname (ausgeschrieben)\\
+			Firma, Adresse, Ort\\
 		\end{tabbing}
+			
+		% Logo der Hochschule
 		\vfill
-	\begin{figure}[t]
-		\raggedleft
-		\includegraphics[width=0.5\textwidth]{zhawGR_logo.png} % 
+		\begin{figure}[t]
+			\raggedleft
+			\includegraphics[width=0.5\textwidth]{zhawGR_logo.png} % Logo-Datei
 		\end{figure}
 	\end{titlepage}
+	
 	
 	% Impressum auf der Rückseite des Titelblatts
 	\newpage
 	\thispagestyle{empty}
+	\vspace*{18cm}
 	\noindent
-	
-	\textbf{Schlagworte:} Schlagwort1, Schlagwort2, Schlagwort3\\[1cm]
+	\textbf{Impressum}\\[1cm]
+	\textbf{Schlagworte:} Schlagwort1, Schlagwort2, Schlagwort3\\[0.5cm]
 	\textbf{Zitiervorschlag:}\\
-	Autor/in (Jahr). Titel der Arbeit. Zürcher Hochschule für Angewandte Wissenschaften, Departement Life Sciences und Facility Management.\\[1cm]
-	\textbf{Institut:} Name des Instituts
+	Autor/in (Jahr). Titel der Arbeit. Zürcher Hochschule für Angewandte Wissenschaften, Departement Life Sciences und Facility Management.
+	
 	
 	% Zusammenfassung
 	\newpage
 	\section*{Zusammenfassung}
-	Hier folgt die Zusammenfassung der Arbeit.
+	blablabla
+	
+	% Abstract
+	\newpage
+	\section*{Abstract}
+	blablabla
 	
 	% Abkürzungsverzeichnis
 	\newpage
@@ -64,9 +88,9 @@
 	\newpage
 	\pagestyle{standard} % Aktiviert Kopf- und Fußzeilen ab dieser Seite
 	\section{Einleitung}
-	Hier beginnt der Hauptteil der Arbeit.
+	blablabla
 	\subsection{Stand der Forschung}
-	Hier beginnt der Hauptteil der Arbeit.
+	blablabla
 	
 	
 	% Weitere Kapitel
@@ -85,6 +109,21 @@
 	\newpage
 	\section{Material und Methoden}
 	\begin{table}[ht]
+		\raggedright
+		\caption{Beispieltabelle}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Spalte 1 & Spalte 2 & Spalte 3 \\ \hline
+			Daten 1  & Daten 2  & Daten 3  \\ \hline
+			Daten 4  & Daten 5  & Daten 6  \\ \hline
+		\end{tabular}
+		\label{tab:beispiel}
+	\end{table} 
+	\noindent %kein Einzug
+	blablabla Tabelle \ref{tab:beispiel} zeigt ein Beispiel.
+	\\%neue Zeile
+	\par\noindent neuer Absatz ohne Einzug
+	\begin{table}[ht]
 		\centering
 		\begin{tabular}{|c|c|c|}
 			\hline
@@ -92,13 +131,10 @@
 			Daten 1  & Daten 2  & Daten 3  \\ \hline
 			Daten 4  & Daten 5  & Daten 6  \\ \hline
 		\end{tabular}
-		\caption{Beispieltabelle}
-		\label{tab:beispiel}
+		\caption{andere Tabelle}
+		\label{tab:andere}
 	\end{table}
-	
-	Tabelle \ref{tab:beispiel} zeigt ein Beispiel.
-	
-	
+	\par\noindent  Tabelle \ref{tab:andere} zeigt ein Beispiel.
 	
 	\newpage
 	\section{Ergebnisse}
@@ -106,6 +142,7 @@
 	
 	\newpage
 	\section{Diskussion}
+	blablabla
 	% Inhalt
 	
 	% Literaturverweise im Text
