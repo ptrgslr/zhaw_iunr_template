@@ -93,8 +93,11 @@
 	\subsection{Stand der Forschung}
 	blablabla
 	\subsubsection{Unterunterkapitel}
-	blablabla
-	
+	blablabla \parencite{gislerProjectWorkResearch2023}
+	\\
+	\textcite{wust-galleyModelbasedCarbonInventory2020}
+	\\
+	\
 	
 	% Weitere Kapitel
 	\newpage
@@ -148,15 +151,14 @@
 	blablabla
 	% Inhalt
 	
-	% Literaturverweise im Text
-	% Beispiel für ein Zitat:
-	% \cite{SchlüsselAusBibDatei}
 	
 	% Literaturverzeichnis
 	\newpage
 	\pagestyle{plain} % Setzt den neuen Seitenstil
-	\printbibliography
-	\markboth{Literaturverzeichnis}{Literaturverzeichnis} % Kapitelname in der Kopfzeile
+	\section*{Literaturverzeichnis}
+	\printbibliography[heading=none]
+	\markboth{Literaturverzeichnis}{Literaturverzeichnis} % Setzt den Titel in die Kopfzeile
+	\addcontentsline{toc}{section}{Literaturverzeichnis}
 	
 	
 	% Abbildungsverzeichnis (falls benötigt)
