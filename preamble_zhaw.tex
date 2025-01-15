@@ -53,9 +53,9 @@
 
 % Inhaltsverzeichnis anpassen
 \renewcommand{\cfttoctitlefont}{\Large\bfseries} % Titel Inhaltsverzeichnis in \large und fett
-\renewcommand{\cftsecfont}{\normalfont} % Sektionen nicht fett
+\renewcommand{\cftsecfont}{\large\bfseries} % Sektionen fett
 \renewcommand{\cftsubsecfont}{\normalfont} % Subsektionen nicht fett
-\renewcommand{\cftsecpagefont}{\normalfont} % Seitenzahlen nicht fett
+\renewcommand{\cftsecpagefont}{\large\bfseries} % Seitenzahlen fett
 \renewcommand{\cftsubsecpagefont}{\normalfont} % Seitenzahlen von Subsektionen nicht fett
 
 % Punkte für alle Ebenen im Inhaltsverzeichnis
@@ -71,7 +71,7 @@
 % Zeigt Subsections im Inhaltsverzeichnis an
 \setcounter{tocdepth}{2}
 % Optional: Nummeriert Subsections
-\setcounter{secnumdepth}{2}
+\setcounter{secnumdepth}{3} %Subsubsections nummeriert mit %{3}%
 
 % Keine Kopf- und Fusszeilen vor der Einleitung
 \pagestyle{empty} % "empty" deaktiviert die Kopf- und Fusszeilen
