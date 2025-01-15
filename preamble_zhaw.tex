@@ -1,6 +1,6 @@
 
 \usepackage[utf8]{inputenc}
-\usepackage[ngerman]{babel}
+\usepackage[ngerman]{babel} %Sprache Deutsch
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{setspace}
@@ -15,7 +15,7 @@
 \usepackage{caption}
 \usepackage{tocloft} % Für Inhaltsverzeichnis-Anpassungen
 \usepackage[style=apa, backend=biber]{biblatex} %biber als default bibliography tool bestimmen
-% BibLaTeX-Bibliografie-Datei einbinden
+% BibLaTeX-Bibliografie-Datei einbinden, aus Zotero exportieren und im gleichen Ordner speichern
 \addbibresource{Bibliothek.bib}  % Pfad zur BibTeX-Datei
 
 
@@ -56,10 +56,10 @@
 }
 
 % Inhaltsverzeichnis anpassen
-\renewcommand{\cfttoctitlefont}{\Large\bfseries} % Titel Inhaltsverzeichnis in \large und fett
-\renewcommand{\cftsecfont}{\large\bfseries} % Sektionen fett
+\renewcommand{\cfttoctitlefont}{\Large\bfseries} % Titel Inhaltsverzeichnis in \Large und fett
+\renewcommand{\cftsecfont}{\large} % Sektionen gross
 \renewcommand{\cftsubsecfont}{\normalfont} % Subsektionen nicht fett
-\renewcommand{\cftsecpagefont}{\large\bfseries} % Seitenzahlen fett
+\renewcommand{\cftsecpagefont}{\large} % Seitenzahlen fett
 \renewcommand{\cftsubsecpagefont}{\normalfont} % Seitenzahlen von Subsektionen nicht fett
 
 % Punkte für alle Ebenen im Inhaltsverzeichnis
