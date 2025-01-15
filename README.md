@@ -6,7 +6,7 @@ Die Vorlage basiert auf https://gpmpublic.zhaw.ch/GPMDocProdDPublic/Vorgabedokum
 ## Inhalt
 - `zhaw_template.tex`: Hauptdatei des Dokuments, in der der Inhalt der Arbeit geschrieben wird. Diese Datei lädt automatisch die Präambel und weitere Einstellungen.
 - `preamble_zhaw.tex`: Präambeldatei mit den wichtigsten Einstellungen und Formatierungsanweisungen, anpassbar
-- Bibliothek.bib: Bibliografie aus Zotero exportiert mit Better Bibtex https://retorque.re/zotero-better-bibtex/
+- Bibliothek.bib: Bibliografie aus Zotero exportiert mit Better Bibtex, automatische Synchronisierung möglich siehe Anleitung https://retorque.re/zotero-better-bibtex/
 ## Features
 - **Kapitel, Abschnitte und Unterabschnitte** fortlaufend nummeriert.
 - unterschiedliche **Kopf- und Fusszeilen** für gerade und ungerade Seiten (eher für Print)
