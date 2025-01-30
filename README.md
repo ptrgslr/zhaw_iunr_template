@@ -2,6 +2,7 @@
 
 LaTeX-Vorlage für studentische Arbeiten am Institut für Umwelt und Natürliche Ressourcen (IUNR) der Zürcher Hochschule für Angewandte Wissenschaften (ZHAW).
 Die Vorlage basiert auf https://gpmpublic.zhaw.ch/GPMDocProdDPublic/Vorgabedokumente_Dept/N_AA_Writing_student_assignments.pdf
+ZHAW Logos verfügbar auf complesis: https://complesis.zhaw.ch/dokument/32/view
 
 ## Inhalt
 - `zhaw_template.tex`: Hauptdatei des Dokuments, in der der Inhalt der Arbeit geschrieben wird. Diese Datei lädt automatisch die Präambel und weitere Einstellungen.
